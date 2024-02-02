@@ -1,4 +1,12 @@
 import Image from 'next/image'
+import Backgroundchange from '@/components/backgroundchange/Backgroundchange'
+import  Counter  from '@/components/counter/Counter'
+import QA from '@/components/qa/QA'
+import Numbers from '@/components/numbers/Numbers'
+import Tabs from '@/components/tabs/Tabs'
+import Products from '@/components/products/Products'
+import Drinks from '@/components/drinks/Drinks'
+import Slider from '@/components/slider/Slider'
 
 export default function Home() {
   return (
@@ -53,7 +61,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            Find in-depth information about Next.js features and API. 
           </p>
         </a>
 
